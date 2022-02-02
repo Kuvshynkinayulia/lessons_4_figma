@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:regular,600,800,600italic,700italic,&display=swap');
+@font-face {
+   font-family: Loki-ColaRUS;
+   src: url('../fonts/Loki-Cola/Loki-ColaRUS.woff') format("woff"), url('../fonts/Loki-Cola/Loki-ColaRUS.woff2') format("woff2");
+   font-weight: 400;
+   font-style: normal;
+   display: swap;
+}  
+@font-face {
+   font-family: Contage-Regular;
+   src: url('../fonts/Contage-Regular.woff') format("woff"), url("../fonts/Contage-Regular.woff2") format("woff2");
+   font-weight: 400;
+   font-style: normal;
+   display: swap;
+}
+@font-face {
+   font-family: Contage-BoldItalic;
+   src: url('../fonts/Contage-BoldItalic.woff') format("woff"), url("../fonts/Contage-BoldItalic.woff2") format("woff2");
+   font-weight: 700;
+   font-style: italic;
+   display: swap;
+}
+/* 
+   
+   
+*/
+[class*="plus"]{
+   text-align: center;
+   color: rgb(11, 97, 22);
+   font-family: 'Contage-Regular', sans-serif;
+   font-weight: 400;
+   font-size: 30px;
+}
+[class*="minus"]{
+   text-align: center;
+   color: rgb(5, 74, 95);
+   font-family: 'Contage-Regular', sans-serif;
+   font-weight: 400;
+   font-size: 30px;
+   text-align: center;
+}
+[class*="name"]{
+   text-align: center;
+   color: rgb(10, 170, 182);
+   font-family: 'Loki-ColaRUS', sans-serif;
+   font-weight: 400;
+   font-size: 50px;
+   text-align: center;
+}
+[class*="positive"]{
+   font-family: 'Open Sans' sans-serif;
+   font-weight: 600;
+   font-size: 20px;
+   font-style: italic;
+   text-align: right;
+   color: rgb(12, 136, 136);
+   text-transform: capitalize;
+   text-shadow: -10px -10px 5px rgb(27, 4, 158);
+}
+[class*="negative"]{
+   font-family: 'Roboto Slab', serif;
+   font-weight: 700;
+   font-size: 20px;
+   color: rgb(177, 100, 28);
+   text-indent: 50px;
+   line-height: 2;
+}
+body{
+   font-size: 30px;
+}
+.header{
+   list-style: none;
+   text-align: center;
+   font-size: 30px;
+}
+
+.header-list ul li>a{
+   color: rgb(197, 27, 55);
+   display: inline-block;
+}
+
+
+#chrome span{
+   color: darkred;
+   text-decoration: line-through;
+}
+#chrome{
+   display: inline-block;
+   color: rgb(24, 8, 173);
+   font-size: 20px;
+   text-align: center;
+}
+
+h1{
+   font-size: 40px;
+   font-family: "Contage-BoldItalic", sans-serif;
+   font-weight: 700;
+   color: deeppink;
+   font-style: italic;
+}
+.text {
+   display: inline-block;
+      color: rgb(72, 61, 139);
+      text-shadow: 10px 10px 10px rgb(16, 48, 29), 5px 5px 5px rgb(230, 238, 233);
+      font-family: 'PT Serif', serif;
+      font-weight: 700;
+}
+.browser{
+   text-decoration: underline;
+   font-size: 30px;
+   font-style: italic;
+}
+ol li{
+   font-size: 20px;
+   color: rgb(32, 178, 170);
+}
+ol li>a{
+   color: rgb(0, 255, 0);
+   text-decoration: overline;
+}
+.number {
+   font-family: "Contage-BoldItalic", sans-serif;
+   font-weight: 700;
+   font-style: italic;
+   line-height: 2;
+}
+.main-firefox p{
+   font-size: 20px;
+   color: rgb(128, 0, 128);
+   font-family: "Contage-Regular", sans-serif;
+   font-weight: 400;
+   word-spacing: 20px;
+   line-height: 2;
+}
+.main-firefox h3{
+   font-size: 30px;
+   color: rgb(0, 0, 205);
+   text-transform: uppercase;
+   line-height: 2;
+}
+
+.plus-firefox {
+   text-decoration: line-through;
+   font-family: 'Open Sans' sans-serif;
+   font-weight: 700;
+   font-style: italic;
+}
+.mark li{
+   color: rgb(158, 121, 155);
+}
+.minus-firefox {
+}
+.main-edge p{
+   color: rgb(185, 8, 171);
+   font-size: 20px;
+   font-family: 'PT Serif', serif;   
+   font-weight: 700;
+   font-style: italic;
+
+}
+.image-edge {
+}
+.plus-edge {
+}
+.minus-edge {
+   text-decoration: underline;
+}
+.opera p {
+   color: purple;
+   font-size: 20px;
+   font-family: Contage-BoldItalic, sans-serif;
+   font-weight: 400;
+   font-style: italic;
+
+}
+
+.main-opera {
+}
+.image-Opera {
+}
+.plus-opera {
+}
+.minus-opera {
+}
+.brave p{
+   font-size: 20px;
+   color: rgb(114, 138, 7);
+   text-transform: lowercase;
+   text-decoration: underline;
+}
+.main-brave {
+}
+.image-brave {
+}
+.plus-brave {
+}
+.minus-brave {
+}
+.yandex p{
+   font-size: 20px;
+   color: rgb(7, 119, 31);
+   letter-spacing: 3px;
+   text-decoration: overline;
+   
+}
+
+.main-yandex {
+   text-shadow: 5px -5px 5px rgb(44, 10, 10);
+   color: tomato;
+}
+.image-yandex {
+}
+.plus-yandex {
+   letter-spacing:10px;
+}
+.footer{
+   text-align: center;
+}
+.footer-list ul li>a{
+   display: inline-block;
+   color: rgb(1, 97, 14);
+   text-decoration: underline;
+   font-size: 30px;
+   
+}
